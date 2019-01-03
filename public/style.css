@@ -1,4 +1,47 @@
-.proxy-body{
+/* -------------------- NAV BAR ---------------------- */
+.nav {
+  font-family: 'Questrial';
+  z-index: 9999;
+  text-align: center;
+  position: fixed;
+  height: 30px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: -8px;
+}
+
+/* ----------------- SEPARATOR BAR ----------------- */
+#separator-bar {
+  margin-top: 50px;
+  height: 30px;
+  width: 100%;
+  font-family: 'Questrial', sans-serif;
+  font-variant: small-caps;
+}
+
+.separator-bar-text {
+  padding: 50px;
+}
+
+#separator-bar-text-container {
+  margin-left: 10%;
+}
+
+/* ----------------- COMPONENTS ---------------------- */
+.photos-summary-container {
   display: flex;
   align-content: space-between;
+  margin-left: 80px;
+}
+#Photos {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+#Summary {
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
