@@ -38,10 +38,14 @@
   margin-left: 80px;
 }
 #Photos {
-  margin-top: 45px;
+  margin-top: 50px;
   margin-bottom: 45px;
 }
 #Summary {
-  margin-top: 45px;
+  margin-top: 50px;
   margin-bottom: 45px;
+}
+
+#Reviews {
+  margin-top: 70px;
 }
